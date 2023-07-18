@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <title>Expense Tracker</title>
+</head>
+<body>
+    <h1>Track your Expenses</h1>
+    <div id="expenses">
+        <input type="text" id="expense-name" placeholder="expense name" required>
+        <input type="number" id="amount" placeholder="amount" required>
+        <button id="add">Add</button>
+    </div>
+    <table id="table">
+        <thead>
+          <tr>
+            <th>Expense Name</th>
+            <th>Amount</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+        <tfoot>
+          <tr>
+            <td>Total:</td>
+            <td>0</td>
+          </tr>
+        </tfoot>
+      </table>
+    <script src="js/script.js"></script>
+</body>
+</html>
