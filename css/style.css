@@ -20,9 +20,6 @@ table, th, td{
 
 
 #table{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   align-items: center;
   background-color: antiquewhite;
   margin-left: 450px;
