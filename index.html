@@ -10,22 +10,26 @@
 <body>
     <h1>Track your Expenses</h1>
     <div id="expenses">
-        <input type="text" id="expense-name" placeholder="expense name" required>
-        <input type="number" id="amount" placeholder="amount" required>
+        <input type="text" id="expense-name" placeholder="Expense name" required>
+        <input type="number" id="amount" placeholder="Amount" required>
         <button id="add">Add</button>
     </div>
     <table id="table">
-          <tr>
-            <th>Expense Name</th>
-            <th>Amount</th>
-            <th>Action</th>
-          </tr>
-        <tr></tr>
-          <tr>
-            <td>Total:</td>
-            <td>0</td>
-          </tr>
-      </table>
+        <thead>
+            <tr>
+                <th>Expense Name</th>
+                <th>Amount</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+        <tfoot>
+            <tr>
+                <td>Total:</td>
+                <td id="total-amount">0</td>
+            </tr>
+        </tfoot>
+    </table>
     <script src="js/script.js"></script>
 </body>
 </html>
