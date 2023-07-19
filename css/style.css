@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#expenses{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+table, th, td{
+  border: 1px solid;
+}
+
+#table{
+  margin-left: 520px;
+  margin-top: 100px;
+}
+
+#expense-name{
+    margin-right: 20px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#amount{
+    margin-right: 20px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
